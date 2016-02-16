@@ -108,12 +108,6 @@ def main(nodes=50, strategies=100, generations=20000, mutateP=.7, crossP=.7):
 		if count % 500 == 0:
 			print "Foraged", count, "berries"
 			print "Best we got so far:", best_score, "with: ", best_strategy
-		
-		# if count % 500 == 0:
-		# 	print "new table:"
-		# 	print count
-		# 	for i in range(strategies):
-		# 		print table[i]
 
 	print "=========================================================================="
 	print "Best we could find: ", best_score, "for strategy", best_strategy
